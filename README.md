@@ -2,6 +2,10 @@
 
 Billing management system created by me for Interject. The project is written in SQL Server, but integrates directly with the Interject Excel Add-in and Interject Data Portal software layer, so it will not be runnable by those who are not Interject users.
 
+## How to View this Project
+
+This project is written in SQL Server, but integrates directly with the Interject Excel Add-in and Interject Data Portal software layer, so it will not be runnable by those who are not Interject users. To best understand the problem and my solutions, first see the Excel sheet located in ./report, then consult the SQL code organized by its corresponding tab on the Excel sheet located in ./src.
+
 ## Problem Description
 
 
