@@ -8,7 +8,8 @@ This project is written in SQL Server, but integrates directly with the Interjec
 
 ## Problem Description
 
-
+The problem of billing clients was previously handled manually and became cumbersome at Interject. The probelm of "billing" as I refer to it here includes:
+1. Keeping track of their license agreements (licensing of the Interject software) and how they change year-to-year (or quarter-to-quarter)
 
 ## Note on Commit History
 
