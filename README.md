@@ -24,13 +24,17 @@ Some specific requirements of the solution:
 1. The ability to model a client-license relationship that can be defined for any duration of time (yearly renewal or quarterly, monthly, etc.).
 2. The ability for a single clients to have multiple licenses associated with them (typical use case: a client would like a yearly license of one module, but a quarterly license of another).
 3. The ability to define licenses specific to a certain location/branch of a client's company.
-4. The ability to include a "license partner" () in a client-license relationship
+4. The ability to include a "license partner" (a third party through which an Interject module is licensed, wherein the thrid party recieves a share of compensation for their help in licensing the module to the client) in a client-license relationship.
 5. The ability to specify discounts on specific modules _and_ discounts that apply to all modules in a given license grouping.
 6. The ability to apply "license factors" (a percentage price increase by year or other time duration) to individual modules.
 
 ## Solution
 
-After some debate and thorough consideration of the solution requirements, I came up with the idea of a "*license package*." A license package is defined as a client-license relationship that can contain licenses of multiple Interject modules, but all of said modules within one license package must be licensed for the same duration of time, 
+After debate with other Interject developers, and the modification of the solution as the requirements changed, I came up with the idea of a "*license package*." I define a license package as a client-license relationship that may contain licenses of multiple Interject modules, but all of said modules within one license package must be licensed for the same duration of time, belong to the same client and client-partner (if applicable), belong to the same location/branch of the client company, and have the same "package discount" which applies to all contained modules. A single client is allowed to have more than one associated license package.
+
+This solution uses a single added construct to help bring together all the requirements of the billing system.
+
+
 
 ## Note on Commit History
 
