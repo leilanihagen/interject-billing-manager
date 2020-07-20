@@ -13,7 +13,7 @@ Billing and invoicing of clients, as well as keeping track of software license r
 This project was developed in SQL Server 2008.
 
 Terms:
-* *License:* the purchased right to use Interject software for a agreed upon amount of time.
+* *License:* the purchased right to use Interject software for an agreed upon amount of time.
 * *Module:* an item (software product or service) that a user can license for a duration of time.
 
 The solution generally needed to accomplish two things:
